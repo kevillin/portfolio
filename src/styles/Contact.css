@@ -1,0 +1,37 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.linha-vertical {
+  height: 200px;
+  border-left: 2px solid;
+}
+
+.input-contact {
+  width: 80%;
+  height: 40px;
+  margin: 20px;
+  background-color: #D9D9D9;
+}
+
+.input-textarea {
+  width: 80%; 
+  margin: 20px;
+  background-color: #D9D9D9;
+}
+
+form {
+  margin: 20px;
+}
+
+.button-contact {
+  width: 20%;
+  color: white;
+  background-color: black;
+}

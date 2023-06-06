@@ -1,0 +1,10 @@
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skills-img {
+  width: 100px;
+  height: 100px;
+}

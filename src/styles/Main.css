@@ -1,0 +1,32 @@
+.main {
+  background: #D9D9D9;
+  height: 80vh;
+  display: flex;
+  border: solid 1px black;
+}
+
+.about {
+  margin: auto;
+  width: 50%;
+}
+
+#selfie {
+  max-width:700px;
+  max-height:650px;
+  width: auto;
+  height: auto;
+  /* padding-bottom: 0%;
+  margin-bottom: 0%;
+  border-bottom: 0%; */
+  align-items: end;
+  position: sticky;
+  top: 50%;
+  object-fit: contain
+}
+
+@media only screen and (max-width: 480px) {
+  #selfie {
+    width: 100%;
+    /* Está dando erro; */
+  }
+}
