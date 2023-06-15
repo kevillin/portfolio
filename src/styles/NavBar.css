@@ -1,9 +1,7 @@
 .nav {
   background-color: black;
   height: 84px;
-  margin-left: -10px;
   display: flex;
-  position: absolute;
   width: 100%;
   justify-content: space-between;
   top: 0%;
@@ -29,9 +27,9 @@
 }
 
 .icons-pai {
+  width: 12%;
   display: flex;
-  margin: auto 0px;
-  gap: 5px;
+  justify-content: space-around;
   margin-right: 30px;
 }
 
