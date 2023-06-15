@@ -12,7 +12,7 @@ import "../styles/Skills.css";
 function Skills() {
   return (
     <div>
-      <h1>Hardskills</h1>
+      <h1 id="stacks">Hardskills</h1>
       <hr />
       <div className="skills-container">
         <img className="skills-img" src={UxUiImg} alt="uxui-img" />
