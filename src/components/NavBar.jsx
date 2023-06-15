@@ -10,10 +10,10 @@ export default function NavBar() {
     <nav className="nav">
       <img src={logo} id="logo" alt="logo" />
       <div className="links-pai">
-        <a href="#about" className="links">sobre</a>
-        <a href="#contato" className="links">contato</a>
-        <a href="#stacks" className="links">stacks</a>
-        <a href="#projetos" className="links">projetos</a>
+        <a href="#sobre" className="links">Sobre</a>
+        <a href="#contato" className="links">Contato</a>
+        <a href="#stacks" className="links">Stacks</a>
+        <a href="#projetos" className="links">Projetos</a>
       </div>
       <div className="icons-pai">
         <a href="https://wa.me/5561982788831" rel="noreferrer" target="_blank"><img className="icons" src={whatsAppIcon} alt="" /></a>
