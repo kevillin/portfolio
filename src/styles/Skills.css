@@ -1,3 +1,13 @@
+#stacks {
+  margin-top: 30px;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+  margin: 40px auto;
+}
+
 .skills-container {
   display: flex;
   justify-content: center;
