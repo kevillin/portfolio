@@ -6,7 +6,7 @@ import "../styles/Contact.css";
 function Contact() {
   return (
     <div>
-      <h1>Contato</h1>
+      <h1 id="contato">Contato</h1>
       <div className="contact-container">
         <img className="contact-icon" src={telefoneIcon} alt="telefone-icon" />
         <h3>+55 (61) 98278-8831</h3>
