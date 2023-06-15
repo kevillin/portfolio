@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+
 .main {
   background: #d9d9d9;
   height: 80vh;
   display: flex;
-  border: solid 1px black;
+  overflow: auto;
+}
+
+span {
+  text-decoration: underline;
+}
+
+#sobre {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Roboto Serif', serif;
+}
+
+#description {
+  font-size: 1.5em;
+  display: inline-block;
+  width: 100%;
 }
 
 .about {
@@ -20,11 +38,4 @@
   height: 80%;
   position: sticky;
   top: 50%;
-}
-
-@media only screen and (max-width: 480px) {
-  #selfie {
-    width: 100%;
-    /* Está dando erro; */
-  }
 }
