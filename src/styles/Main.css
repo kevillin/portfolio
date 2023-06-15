@@ -13,8 +13,10 @@ span {
 
 #sobre {
   font-size: 3em;
+  display: inline-block;
   font-weight: bold;
   font-family: 'Roboto Serif', serif;
+  margin: 3px;
 }
 
 #description {
@@ -35,7 +37,7 @@ span {
 #selfie {
   display: inline-block;
   width: 100%;
-  height: 80%;
+  height: 100%;
   position: sticky;
   top: 50%;
 }
