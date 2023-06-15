@@ -1,7 +1,6 @@
 .footer {
   background-color: black;
   height: 84px;
-  margin-left: -10px;
   display: flex;
   width: 100%;
   justify-content: space-between;
