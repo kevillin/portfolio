@@ -24,7 +24,6 @@ function Projects() {
           <a id="projects-ancora" href={project.html_url} key={project.id}>
             <div className="project">
                 <h2>{project.name.replace("-", " ")}</h2>
-                <p>{project.description}</p>
             </div>
           </a>
         ))}

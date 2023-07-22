@@ -10,26 +10,25 @@
 
 .projects-container {
   display: grid;
-  width: 90%;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 8%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2%;
   margin: auto;
-  padding: 10px;
   justify-items: center;
 }
 
 .project {
   display: flex;
   flex-direction: column;
-  height: 50%;
-  width: 100%;
-}
-
-.project h2 {
-  margin-bottom: 0;
+  height: 6rem;
+  width: 300px;
+  padding: 10%;
 }
 
 .project:hover {
-  transform: scale(1.1);
-  color: rgb(32, 147, 179);
+  border: solid black 1px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
