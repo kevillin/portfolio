@@ -11,7 +11,6 @@
 .mobile-menu {
   display: flex;
   justify-content: space-between;
-  width: 75%;
 }
 
 #logo {
@@ -70,7 +69,7 @@
   }
 
   .mobile-menu.active {
-    height: 15%;
+    height: 130px;
     visibility: visible;
     overflow-y: auto;
   }
