@@ -41,3 +41,29 @@ span {
   position: sticky;
   top: 50%;
 }
+
+@media (max-width: 600px) {
+  .main {
+    display: inline-block;
+    border: 2px solid red;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+  .about {
+    border: solid black 1px;
+    margin-top: 200px;
+    height: 50%;
+    font-size: 10px;
+    width: 100%;
+  }
+
+  #selfie {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-left: 25%;
+  }
+  
+}
