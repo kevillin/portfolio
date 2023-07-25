@@ -58,6 +58,7 @@ li {
     z-index: 1000;
     visibility: hidden;
     overflow-y: hidden;
+    margin-right: 0;
 
   }
 
