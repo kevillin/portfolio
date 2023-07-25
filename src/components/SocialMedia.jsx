@@ -5,8 +5,14 @@ import gmailIcon from '../assets/mail-dark.png';
 import '../styles/SocialMedia.css'
 
 function SocialMedia() {
+  function eliminateSection() {
+    const sec = document.querySelector('.icons-pai');
+    if (window.scrollY > 200) {
+      sec.classList.toggle('eliminate');
+    }
+  }
   return (
-    <div className="icons-pai">
+    <div className="icons-pai" onScroll={ () => eliminateSection() }>
     <a
       href="https://wa.me/5561982788831"
       rel="noreferrer"
