@@ -11,6 +11,8 @@ function Projects() {
   const fetchProjects = async () => {
     const response = await fetch("https://api.github.com/users/kevillin/repos");
     const data = await response.json();
+
+    console.log(data)
     setProjects(data.filter((p) => p.id !== 
     490085984 && p.id !== 649930875));
   };
@@ -23,7 +25,9 @@ function Projects() {
         {projects.map((project) => (
           <a id="projects-ancora" href={project.html_url} key={project.id}>
             <div className="project">
-                <h2>{project.name.replace("-", " ")}</h2>
+                <h2>{project.name.replaceAll("-", " ").replace("project", "")}</h2>
+                <p>{project.description}</p>
+                <p>Linguagem Usada: {project.language}</p>
             </div>
           </a>
         ))}
