@@ -9,9 +9,7 @@ function Footer() {
   return (
     <footer className="footer">
       <img src={logo} id="logo-footer" alt="logo" />
-      <div className="links-footer">
-        <h3>Esse site foi construido com React</h3>
-      </div>
+      <h3 id="sobre-footer">Esse site foi construido com React</h3>
       <div className="icons-footer">
         <a href="https://wa.me/5561982788831" rel="noreferrer" target="_blank"><img className="icons-f" src={whatsAppIcon} alt="" /></a>
         <a href="https://www.linkedin.com/in/kevillinsantos/" rel="noreferrer" target="_blank"><img className="icons-f" src={linkedinIcon} alt="" /></a>

@@ -9,7 +9,7 @@ function Contact() {
       <h1 id="contato">Contato</h1>
       <hr />
       <div className="contact-container">
-        <div className="info-container">
+        <div className="info-container first">
           <img
             className="contact-icon"
             src={telefoneIcon}
@@ -17,7 +17,7 @@ function Contact() {
           />
           <h3 className="info">+55 (61) 98278-8831</h3>
         </div>
-        <hr className="corte"/>
+        {/* <hr className="corte"/> */}
         <div className="info-container">
           <img
             className="contact-icon"
@@ -26,7 +26,7 @@ function Contact() {
           />
           <h3 className="info">Brasília, DF - Brasil</h3>
         </div>
-        <hr className="corte"/>
+        {/* <hr className="corte"/> */}
         <div className="info-container">
           <img
             className="contact-icon"
