@@ -12,7 +12,6 @@ function Projects() {
     const response = await fetch("https://api.github.com/users/kevillin/repos");
     const data = await response.json();
 
-    console.log(data)
     setProjects(data.filter((p) => p.id !== 
     490085984 && p.id !== 649930875));
   };
