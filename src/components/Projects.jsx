@@ -19,7 +19,7 @@ function Projects() {
 
   return (
     <div>
-      <h1 id="projetos">Repositório de Projects</h1>
+      <h1 id="projetos">Repositório de Projetos</h1>
       <hr />
       <div className="projects-container">
         {projects.map((project) => (
