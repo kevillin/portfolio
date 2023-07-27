@@ -2,9 +2,9 @@
 
 .main {
   background: #d9d9d9;
-  height: 80vh;
-  display: flex;
-  overflow: auto;
+  height: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 span {
@@ -12,11 +12,11 @@ span {
 }
 
 #sobre {
-  font-size: 3em;
+  font-size: 2em;
   display: inline-block;
   font-weight: bold;
   font-family: 'Roboto Serif', serif;
-  margin: 3px;
+  margin-bottom: 50px;
 }
 
 #description {
@@ -27,43 +27,43 @@ span {
 
 .about {
   margin: auto;
-  width: 50%;
+  width: 100%;
+  margin-left: 100px;
 }
 
 #selfie-container {
+  justify-self: end;
   overflow: hidden;
+  width: 70%;
+  display: flex;
+  justify-content: end;
 }
 
 #selfie {
   display: inline-block;
-  width: 100%;
   height: 100%;
   position: sticky;
-  top: 50%;
+
 }
 
 @media (max-width: 600px) {
   .main {
-    display: inline-block;
-    border: 2px solid red;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    height: 85%;
   }
 
   .about {
-    border: solid black 1px;
-    margin-top: 200px;
-    height: 50%;
     font-size: 10px;
-    width: 100%;
+    width: 95%;
+    margin-left: 4px;
   }
 
-  #selfie {
-    width: 50%;
-    height: 50%;
-    border-radius: 10px;
-    margin-left: 25%;
+  #selfie-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
   }
   
 }
