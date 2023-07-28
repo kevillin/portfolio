@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import swal from 'sweetalert';
 
 import localizacaoIcon from '../assets/localizacao.png';
 import telefoneIcon from '../assets/telefone.png';
@@ -32,9 +33,13 @@ function Contact() {
         setEmail('');
         setAssunto('');
         setMessage('');
-        alert('Mensagem enviada com sucesso!');
+        swal({
+          title: 'Deu tudo certo',
+          text: 'Mensagem enviada com sucesso! Logo vou entrar em contato.',
+          icon: 'success',
+        });
       })
-      .catch((error) => alert('Erro ao enviar mensagem!' | error.message));
+      .catch(() => swal("Opa!", "Eu acho que alguma coisa não deu certo. Tente novamente!", "error"));
   };
 
   return (
