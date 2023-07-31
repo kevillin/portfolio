@@ -25,10 +25,9 @@ Para rodar o Linter, dê o seguinte comando:
   npm run lint
 ```
 ## Protótipo do Figma
-
-[O protótipo do Figma está disponível nesse link](https://www.figma.com/file/l3bENlW5c3byHlj2kG312P/Prot%C3%B3tipo?type=design&node-id=0%3A1&mode=design&t=Bav8Uuk3Jj1EipGU-1).
+![figma](src/assets/Protótipo.png)
 <br>
-Ou você pode ver na pasta Assets (src/assets)
+[O protótipo do Figma está disponível nesse link](https://www.figma.com/file/l3bENlW5c3byHlj2kG312P/Prot%C3%B3tipo?type=design&node-id=0%3A1&mode=design&t=Bav8Uuk3Jj1EipGU-1).
 
 
 ## Referências
